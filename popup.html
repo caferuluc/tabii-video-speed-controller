@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabii Video Speed Controller</title>
+    <style>
+        body
+            {
+                font-family: Arial, sans-serif; 
+                padding: 10px;
+                width: 250px;
+                background-color: #232323;
+                color: aliceblue;
+            }
+
+        select
+            {
+                width: 100%;
+                padding: 5px;
+                font-size: 14px;
+            }
+
+         .header
+            {
+                margin-top: 15px;
+                text-align: center;
+                border-bottom: 1px solid #444;
+                padding-top: 10px;
+            }
+
+        .footer
+            {
+                margin-top: 15px;
+                text-align: center;
+                border-top: 1px solid #444;
+                padding-top: 10px;
+            }
+
+        #githubLink
+            {
+                text-decoration: none;
+                color: #00acee;
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="icon.png" alt="Tabii Video Speed Controller">
+        <h3>Tabii Video Speed Controller</h3>
+    </div>
+
+    <h4>Select Speed</h4>
+    <select id="speedSelect">
+        <option value="0.5">0.5x</option>
+        <option value="1.0">1.0x</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+        <option value="1.75">1.75x</option>
+        <option value="2.0">2.0x</option>
+        <option value="2.5">2.5x</option>
+        <option value="3.0">3.0x</option>
+        <option value="3.5">3.5x</option>
+        <option value="4.0">4.0x</option>
+    </select>
+
+    <div class="footer">
+        <a href="https://github.com/caferuluc" id="githubLink">
+            <span style="font-size: 10px;">View on GitHub</span>
+        </a>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
